@@ -1,0 +1,17 @@
+/* Error: expected more input.
+ *       ,
+ * 10633 | /*# sourceMappingURL=bootstrap.min.css.map *
+ *       |                                             ^
+ *       '
+ *   assets\scss\bootstrap.min.scss 10633:45  root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: expected more input.\a       \2577 \a 10633 \2502  /*# sourceMappingURL=bootstrap.min.css.map *\a       \2502                                              ^\a       \2575 \a   assets\\scss\\bootstrap.min.scss 10633:45  root stylesheet";
+}

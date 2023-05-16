@@ -6,12 +6,139 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Loja virtual</title>
-    <link rel="stylesheet" href="./assets/css/style.css.map">
+    <link rel="apple-touch-icon" sizes="57x57" href="./assets/images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./assets/images/favicon/apple -icon-60x60.png">
+    <link rel="apple-touch-icon" tamanhos="72x72" href="./assets/images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" tamanhos="76x76" href="./assets/images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" size="114x114" href="./assets/images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" tamanhos="120x120" href="./assets/images/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" tamanhos="144x144" href="./assets/images/favicon/ apple-icon-144x144.png">
+    <link rel="apple-touch-icon" tamanhos="152x152" href="./assets/images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" tamanhos="180x180" href="./assets/images/favicon/apple-icon-180x180.png">
+    <link rel="ícone" type="imagem/png" tamanhos="192x192" href="./assets/images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" size="96x96" href="./assets/images/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon/favicon-16x16. png">
+    <link rel="manifesto" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+
 
 </head>
 
 <body>
+    <!--Cabeçalho-->
+    <header class="container-fluid">
+        <section class="container ">
+            <article class="Manu1">
+                <!--Logo-->
+                <a href="/" class="col-md-2">
+                    <img src="/projecto1/assets/images/Logo.svg" alt="Logotipo">
+                </a>
+                <!--Form de Pesquisa-->
+                <form action="#" class="col-md-7">
+                    <input type="text" name="pesquisar" placeholder="Pesquisar">
 
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                          </svg>
+                    </button>
+                </form>
+                <!--Itens de entrar e carrinho-->
+                <ul class="menu-item">
+                    <li class="nav-item">
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                                <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+                              </svg> Entrar
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <span class="Notification">5</span>
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-fill" viewBox="0 0 16 16">
+                                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/>
+                              </svg> Carrinho
+                        </a>
+                    </li>
+                </ul>
+            </article>
+        </section>
+
+    </header>
+    <!--Barra de Manus-->
+    <nav class="container-fluid nav-produtos">
+        <section class="container">
+            <ul class="nav">
+                <!--1º Itens dos menu-->
+                <li class="nav-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                      </svg> Moda Femenina
+                    <ul class="nav">
+                        <li class="nav-item">
+                            Lançamentos
+                        </li>
+                        <li class="nav-item">
+                            Plus Size
+                        </li>
+                        <li class="nav-item">
+                            Moda Praia
+                        </li>
+                        <li class="nav-item">
+                            Acessórios
+                        </li>
+                        <li class="nav-item">
+                            Promoção
+                        </li>
+                    </ul>
+
+                </li>
+                <!--2º Itens de menus-->
+                <li class="nav-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                      </svg> Calçados
+
+                </li>
+
+            </ul>
+
+        </section>
+
+    </nav>
+
+    <!-- area de sliders-->
+
+    <section id="banners-promocionais" class="carousel slide">
+        <article class="carousel-inner">
+            <figure class="carousel-item active">
+                <img src="/projecto1/assets/images/banner-1.svg" class="d-block w-100" alt="Slider1">
+            </figure>
+            <figure class="carousel-item">
+                <img src="/projecto1/assets/images/Banner2.svg" class="d-block w-100" alt="Slider2">
+            </figure>
+        </article>
+        <button class="carousel-control-prev" type="button" data-bs-target="#banners-promocionais" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#banners-promocionais" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </section>
+
+
+
+
+
+    <!-- Final cabeçalho-->
 
     <!-- Arquivos bootstrap-->
     <script src="/projecto1/assets/js/jquery-3.5.1.slim.min.js"></script>
